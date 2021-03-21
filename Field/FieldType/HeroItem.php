@@ -13,7 +13,7 @@ use Drupal\Core\TypedData\DataDefinition;
  * @FieldType(
  *   id = "hero_item",
  *   label = @Translation("Hero Component"),
- *   category = @Translation("MITRE"),
+ *   category = @Translation("Custom"),
  *   default_widget = "hero_component_widget",
  *   default_formatter = "hero_component_formatter",
  *   list_class = "\Drupal\file\Plugin\Field\FieldType\FileFieldItemList",
