@@ -29,29 +29,6 @@ class HeroComponentWidget extends ImageWidget {
   /**
    * {@inheritdoc}
    */
-  public function formElement(FieldItemListInterface $items, $delta, array $element, array &$form, FormStateInterface $form_state) {
-    $element = parent::formElement($items, $delta, $element, $form, $form_state);
-
-//    $element['heading'] = [
-//      '#title' => t('Heading'),
-//      '#type' => 'textfield',
-//      '#default_value' => 'HARD CODED',
-//      '#description' => t('The main hero heading.'),
-//      '#access' => (bool) true,
-//      '#maxlength' => '512',
-//      '#weight' => '10',
-//    ];
-//    $element['#default_value']['heading'] = 'HARD CODED';
-//    $element['#default_value']['fids'] = ['1'];
-
-    $i = 4;
-
-    return $element;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
   public static function process($element, FormStateInterface $form_state, $form) {
     $item = $element['#value'];
 
